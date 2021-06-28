@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
  <v-app-bar app dark hide-on-scroll class="homepage-toolbar">
     <v-img src="https://images.vexels.com/media/users/3/142812/isolated/preview/992801ae3182fa95353e941cfcac9293-dise-ntilde-o-de-escudo-logo-emblema-by-vexels.png"
       max-height="80"
@@ -60,6 +61,26 @@
       </v-toolbar-items>
       <v-spacer></v-spacer>
 </v-app-bar>
+=======
+  <div>
+    <b-navbar class="mx-5 my-3">
+      <b-navbar-brand href="#">[[LOGO]]</b-navbar-brand>
+      <div class="ml-auto border-bottom my-3 py-2">
+        <b-navbar-nav class="mx-3">                
+          <b-nav-item class="mx-3">Inicio</b-nav-item>        
+          <b-nav-item class="mx-3">Sobre Nosotros</b-nav-item>        
+          <b-nav-item-dropdown text="Productos" class="mx-3">
+            <b-dropdown-item></b-dropdown-item>
+            <b-dropdown-item></b-dropdown-item>
+            <b-dropdown-item></b-dropdown-item>
+          </b-nav-item-dropdown>      
+          <b-nav-item class="mx-3">Contacto</b-nav-item>        
+          <b-nav-item class="mx-3">Noticias</b-nav-item>        
+        </b-navbar-nav>
+      </div>
+    </b-navbar>
+  </div>
+>>>>>>> 9d8572627e0efd4bcd6a671167eacc58eb421207
 </template>
 
 <style lang="css">
@@ -83,6 +104,7 @@
 </style>
 
 <script>
+<<<<<<< HEAD
 export default {
   name: "NavBar",
     data: () => ({
@@ -103,7 +125,22 @@ export default {
         this.$nextTick(() => { this.currentItem = 'tab-' + item })
       },
     },
+=======
+>>>>>>> 9d8572627e0efd4bcd6a671167eacc58eb421207
 
+export default {
+  components:{
+    
+  }
 }
 </script>
 
+<<<<<<< HEAD
+=======
+<style>
+.nav-link {  
+  /*not accurate, will do, also avoid important*/
+  color: mediumturquoise !important
+}
+</style>
+>>>>>>> 9d8572627e0efd4bcd6a671167eacc58eb421207

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>  
   <v-app id="application">
     <NavBar />
@@ -7,6 +8,32 @@
         <router-view></router-view>        
       
       </section>
+=======
+<template>
+  <div id="app">
+    <NavBar/>
+    <router-view />
+  </div>
+</template>
+
+<script>
+import NavBar from './components/NavBar.vue'
+export default {
+  components:{    
+    NavBar
+  }
+}
+</script>
+
+<style lang="scss">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+>>>>>>> 9d8572627e0efd4bcd6a671167eacc58eb421207
 
 
   </v-app>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template id="application">
     <v-parallax
       dark
@@ -8,6 +9,13 @@
         <h4 id="hometext">Hacemos que tu llanta usada adquiera el aspecto y las <br>caracteristicas fisicas de una llanta nueva</h4>
       </v-layout>
     </v-parallax>
+=======
+<template>
+  <div class="home">
+    
+    
+  </div>
+>>>>>>> 9d8572627e0efd4bcd6a671167eacc58eb421207
 </template>
 
 <style lang="css">
@@ -27,6 +35,7 @@
 </style>
 
 <script>
+<<<<<<< HEAD
 /* 
 
 import NavBar from "../components/NavBar.vue";
@@ -36,6 +45,13 @@ export default {
 
   components: {
     NavBar,
+=======
+// @ is an alias to /src
+
+export default {
+  name: "Home",
+  components: {    
+>>>>>>> 9d8572627e0efd4bcd6a671167eacc58eb421207
   },
 };
 */
