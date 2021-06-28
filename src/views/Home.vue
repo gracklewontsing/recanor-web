@@ -1,18 +1,42 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+<template id="application">
+    <v-parallax
+      dark
+      height="800"
+      src="https://wallpapercave.com/wp/wp5569141.jpg">
+      <v-layout align-left column justify-center style="margin-top: 2.5em; margin-left: 3em">
+        <h3 id="hometitle">Mantenemos tu negocio<br>en movimiento</h3>
+        <h4 id="hometext">Hacemos que tu llanta usada adquiera el aspecto y las <br>caracteristicas fisicas de una llanta nueva</h4>
+      </v-layout>
+    </v-parallax>
 </template>
 
+<style lang="css">
+  
+
+  #hometitle{
+    font-size: 40px;
+    font-weight: lighter;
+    color: #2A89B1;
+  }
+
+  #hometext{
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+</style>
+
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+/* 
+
+import NavBar from "../components/NavBar.vue";
 
 export default {
   name: "Home",
+
   components: {
-    HelloWorld,
+    NavBar,
   },
 };
+*/
 </script>
