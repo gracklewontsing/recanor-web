@@ -23,7 +23,7 @@
           small
           plain>Sobre nosotros</v-tab>
 
-        <v-menu offset-y>
+        <v-menu offset-y transition="slide-y-transition" open-on-hover origin="center center" bottom>
         <template v-slot:activator="{ on }">
           <v-tab
             color="primary"
@@ -36,12 +36,11 @@
         <v-list>
           <v-list-item
             v-for="(item, index) in items"
-            :key="index"
-            
-            @click="'/Productos.' + item.page"
-            
+            :key="index"                                    
           >
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <router-link :to="item.url"> 
+              <v-list-item-title class="black--text">{{ item.title }}</v-list-item-title>
+            </router-link>
           </v-list-item>
         </v-list>
           
@@ -69,7 +68,11 @@
   -webkit-box-shadow: none!important;
   box-shadow: none !important;
   padding-top: 2vh;
-}
+  }
+
+  a { 
+    text-decoration: none; 
+  }
 
   .v-tab{
     color: #2A89B1 !important;
@@ -87,9 +90,9 @@ export default {
   name: "NavBar",
     data: () => ({
     items: [
-      { title: 'Servicio Renovado' , page: 'ServicioRenovado' },
-      { title: 'Servicio OTR' , page: 'ServicioOTR' },
-      { title: 'Llantas Nuevas' , page: 'LlantasNuevas' },
+      { title: 'Servicio Renovado' , url: '/renovado' },
+      { title: 'Servicio OTR' , url: '/otr' },
+      { title: 'Llantas Nuevas' , url: '/venta' },
     ],
     }),
 

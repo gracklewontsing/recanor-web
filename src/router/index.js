@@ -21,8 +21,8 @@ const routes = [
       import( /*webpackChunkName: "about"*/  "../views/About.vue"),
   },
   {
-    path: "/ProdSR",
-    name: "ServiciodeRenovado",
+    path: "/renovado",
+    name: "Renovado",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -33,6 +33,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
+  mode:'history'
 });
 
 export default router;

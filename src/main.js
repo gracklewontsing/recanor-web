@@ -13,7 +13,7 @@ Vue.use(Vuetify);
 export default new Vuetify({});
 
 new Vue({
-  router,
+  router,  
   vuetify : new Vuetify(),
   render: (h) => h(App),
 }).$mount("#app");
