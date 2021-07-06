@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br /><br />
+    <br />
     <v-container class="" style="padding-top: 10%">
       <v-row>
         <v-col>
@@ -51,22 +51,37 @@
         </v-col>
       </v-row>
     </v-container>
+    
+    <br /><br />
 
-    <v-container class="">
-      <h2 id="title1">Características</h2>
-      <v-row style="" no-gutters>
-        <v-col lg="2">
-          <v-img
-            id="img2"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
-            max-width="200"
-          >
+    <h1 id="title1" style="padding-left: 20%;">Características</h1>
+
+    <br />
+
+    <v-container class="" >
+    <v-row 
+      class="mb-6"
+      justify="center"
+      no-gutters>
+      <v-col
+        cols="3"
+        sm="6"
+        md="1"
+      >
+          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
+            max-width="90"
+            justify-center>
           </v-img>
-        </v-col>
-        <v-col>
+      </v-col>
+      <v-col
+        cols="5"
+        md="10"
+        lg="7"
+        
+      >
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Seguridad</h2>
-            <p>
+            <p id="text1">
               Al recibir una llanta para revisión, se realiza una inspección
               inicial, la cual nos asegura que la estructura de la llanta está
               en condiciones para el renovado, de no ser así, por NINGUN motivo,
@@ -74,12 +89,147 @@
               del usuario.
             </p>
           </v-layout>
-        </v-col>
-      </v-row>
-    </v-container>
+      </v-col>
+    </v-row>
+    <v-row 
+      class="mb-6"
+      justify="center"
+      no-gutters>
+      <v-col
+        cols="3"
+        sm="6"
+        md="1"
+      >
+          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
+            max-width="90"
+            justify-center>
+          </v-img>
+      </v-col>
+      <v-col
+        cols="5"
+        md="10"
+        lg="7"
+        
+      >
+          <v-layout id="txt2" column justify-center align-left>
+            <h2 id="title1">Costo</h2>
+            <p id="text1">
+              El “Servicio del Renovado de Llantas”, siempre será más económico que el adquirir una llanta nueva, 
+              ya que al invertir tan solo un tercio del valor de una llanta nueva, se obtiene una vida igual a la original.
+            </p>
+          </v-layout>
+      </v-col>
+    </v-row>
+    <v-row 
+      class="mb-6"
+      justify="center"
+      no-gutters>
+      <v-col
+        cols="3"
+        sm="6"
+        md="1"
+      >
+          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
+            max-width="90"
+            justify-center>
+          </v-img>
+      </v-col>
+      <v-col
+        cols="5"
+        md="10"
+        lg="7"
+        
+      >
+          <v-layout id="txt2" column justify-center align-left>
+            <h2 id="title1">Capacitación al cliente</h2>
+            <p id="text1">
+              Una llanta nueva, podría ser renovada por estándares de calidad, hasta 3 veces, siempre y 
+              cuando su estructura permanezca en buen estado, es por ello que “RECANOR”, ofrece a sus clientes, 
+              asesoría y monitoreo de su flotilla vehicular, con la finalidad de disminuir o eliminar practicas 
+              incorrectas en el uso de sus llantas, que pudieran provocar que una llanta no sea viable para ser
+               renovada.
+            </p>
+          </v-layout>
+      </v-col>
+    </v-row>
+    <v-row 
+      class="mb-6"
+      justify="center"
+      no-gutters>
+      <v-col
+        cols="3"
+        sm="6"
+        md="1"
+      >
+          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
+            max-width="90"
+            justify-center>
+          </v-img>
+      </v-col>
+      <v-col
+        cols="5"
+        md="10"
+        lg="7"
+        
+      >
+          <v-layout id="txt2" column justify-center align-left>
+            <h2 id="title1">Materia prima RECANOR</h2>
+            <p id="text1">
+              Se maneja materia prima y procedimientos de marcas como 
+              MARANGONI y TECH, empresas líderes en su ramo y reconocidas 
+              mundialmente por su calidad.
+            </p>
+          </v-layout>
+      </v-col>
+    </v-row>
+    <v-row 
+      class="mb-6"
+      justify="center"
+      no-gutters>
+      <v-col
+        cols="3"
+        sm="0.5"
+        md="1"
+        align-self="right"
+      >
+          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
+            max-width="90"
+            justify-center>
+          </v-img>
+      </v-col>
+      <v-col
+        cols="5"
+        md="3.5"
+        lg="7"
+        
+      >
+          <v-layout id="txt2" column justify-center align-left>
+            <h2 id="title1">Beneficio ambiental</h2>
+            <p id="text1">
+              Sin lugar a dudas el Renovado de Llantas, genera un beneficio ambiental al utilizar una
+               llanta renovada
+            </p>
+          </v-layout>
+      </v-col>
+    </v-row>
+  </v-container>
 
-    <br />
-    <hr />
+  <v-parallax
+    dark
+    height="600"
+    src="https://wallpapercave.com/wp/wp5569141.jpg">
+  </v-parallax>
+
+  <br />
+
+    <div class="d-flex flex-column justify-center align-center">
+      <v-img src="https://wallpapercave.com/wp/wp5569141.jpg" max-width="1100">
+      </v-img>
+    </div>
+
+  <br /><br /><br />
+  <br /><br />
+  <hr />
 
     <Footer />
   </div>
@@ -87,6 +237,18 @@
 
 
 <style lang="css">
+
+#text1 {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+#title1 {
+  color: #2a89b1;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
 </style>
 
 <script>

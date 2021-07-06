@@ -91,8 +91,8 @@ export default {
     data: () => ({
     items: [
       { title: 'Servicio Renovado' , url: '/renovado' },
-      { title: 'Servicio OTR' , url: '/otr' },
       { title: 'Llantas Nuevas' , url: '/venta' },
+      { title: 'Llanta OTR' , url: '/otr' },
     ],
     }),
 
