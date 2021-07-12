@@ -58,12 +58,6 @@
       </v-img>
     </div>
 
-
-    <br /><br /><br />
-    <br /><br /><br />
-  <hr />
-
-    <Footer />
   </div>
 </template>
 
@@ -88,12 +82,12 @@
 </style>
 
 <script>
-import Footer from "../components/Footer.vue";
+
 
 export default {
   name: "Renovado",
   components: {
-    Footer,
+
   },
 };
 </script>

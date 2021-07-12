@@ -50,10 +50,12 @@
         <v-tab
           class="ma-1"
           small
+          to="/contacto"
           plain>Contacto</v-tab>
         <v-tab
           class="ma-1"
           small
+          to="/noticias"
           plain>Noticias</v-tab>
         </v-tabs>
       </v-toolbar-items>

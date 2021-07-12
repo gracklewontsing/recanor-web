@@ -15,7 +15,7 @@
       </v-layout>
     </v-parallax>
     <v-layout id="txt1" column justify-center>
-      <h3 id="title1">Sobre nosotros</h3>
+      <h3 id="title1" class="mb-5">Sobre nosotros</h3>
       <h4 id="text1">
         “RECANOR”, surge en el año 2015, gracias a sus dos socios fundadores
         “Alonso y Ruth”, pareja que residía en ese entonces en Huelva, un
@@ -151,10 +151,6 @@
         </v-col>
       </v-row>
     </v-container>
-    <br />
-    <hr />
-
-    <Footer />
   </div>
 </template>
 
@@ -229,13 +225,12 @@
 </style>
 
 <script>
-import Footer from "../components/Footer.vue";
 
 export default {
   name: "about",
 
   components: {
-    Footer,
+    
   },
 };
 </script>

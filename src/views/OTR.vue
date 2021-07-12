@@ -30,12 +30,7 @@
     <div class="d-flex flex-column justify-center align-center">
       <v-img src="https://wallpapercave.com/wp/wp5569141.jpg" max-width="1100">
       </v-img>
-    </div>
-
-  <br /><br /><br />
-  <hr />
-
-    <Footer />
+    </div>    
   </div>
 </template>
 
@@ -60,12 +55,10 @@
 </style>
 
 <script>
-import Footer from "../components/Footer.vue";
 
 export default {
   name: "Renovado",
-  components: {
-    Footer,
+  components: {    
   },
 };
 </script>

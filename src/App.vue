@@ -1,13 +1,14 @@
 <template>  
   <v-app id="application">
     <router-view></router-view>        
-    <NavBar />                                   
+    <NavBar />    
+    <Footer />                               
   </v-app>
 </template>
 
 <style>
-  #application{
-    font-family:"Montserrat";
+  #application,.v-application, html{
+    font-family:"Montserrat" !important;
   }
 
   .homepage-toolbar {
@@ -26,12 +27,13 @@
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import Footer from "./components/Footer.vue"
 
 export default {
   name: "Home",
 
   components: {
-    NavBar,
+    NavBar, Footer
   },
 };
 </script>
