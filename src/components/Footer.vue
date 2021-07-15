@@ -7,7 +7,8 @@
       <v-row>        
         <v-col>
           <v-img
-            src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
+            :src="require('@/assets/Logo RECANOR.jpg')"
+            class="my-n1"            
             max-width="90"
             justify-center
           ></v-img>

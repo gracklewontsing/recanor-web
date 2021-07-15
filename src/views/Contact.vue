@@ -70,7 +70,7 @@
               :disabled="!valid"
               color="primary"
               class="mr-4"
-              @click="sendEmail"
+              @click="sendEmail"              
             >
               Enviar
             </v-btn>
