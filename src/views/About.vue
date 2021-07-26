@@ -2,9 +2,9 @@
   <div class="about">
     <br /><br /><br /><br />
     <v-parallax
-      dark
-      height="600"
-      src="https://wallpapercave.com/wp/wp5569141.jpg"
+      dark       
+      height=600                     
+      src="http://localhost:8081/static/Sobre Nosotros1.jpg"      
     >
       <v-layout id="txt0" column justify-center>
         <h1 id="title0">Talento humano capacitado</h1>
@@ -22,13 +22,15 @@
         pequeño poblado ubicado en la comunidad de Andalucía en España, país, en
         donde por Ley un neumático debe ser renovado hasta 3 veces, o hasta que
         la vida de la estructura del neumático lo permita y lugar donde surge la
-        idea que nos llevaría a lograr lo que hoy es “RECANOR”. <br />
-
+        idea que nos llevaría a lograr lo que hoy es “RECANOR”. </h4>      
+      <hr class="my-2" color="white">
+      <h4 id="text1">
         En 2016 la pareja cambia de residencia a su lugar de nacimiento, en
         Chihuahua, Chihuahua. Donde con el ideal de fundar un negocio que genere
         un beneficio a su Estado de Origen, inician con el proyecto de
-        “RECANOR”, al lado de 6 socios más. <br />
-
+        “RECANOR”, al lado de 6 socios más.</h4>
+      <hr class="my-2" color="white">
+      <h4 id="text1">
         Es así que, en octubre del 2018, “RECANOR” abre sus puertas al público
         en la Ciudad de Chihuahua, ofreciendo a sus clientes el “Servicio de
         Renovado y Venta de Neumáticos”.
@@ -38,7 +40,7 @@
     <br /><br />
 
     <div class="d-flex flex-column justify-center align-center">
-      <v-img src="https://wallpapercave.com/wp/wp5569141.jpg" max-width="1100">
+      <v-img src="http://localhost:8081/static/Sobre Nosotros2.jpg" width="90%">
       </v-img>
     </div>
 
@@ -48,7 +50,7 @@
         <v-col>
           <v-img
             id="img2"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
+            src="http://localhost:8081/static/Sobre Nosotros3.jpg"
             max-width="600"
           >
           </v-img>
@@ -81,7 +83,7 @@
           <v-img
             id=""
             style="margin-right: 20%"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
+            src="http://localhost:8081/static/Sobre Nosotros.jpg"
             max-width="600"
           >
           </v-img>
@@ -102,55 +104,12 @@
     </v-layout>
     <br /><br />
 
-    <v-container class="" style="align-center" id="bigsquare">
-      <v-row>
-        <v-col>
-          <div id="greysquare">
-            <v-img
-              src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-              max-width="80"
-            ></v-img>
-            <p style="font-size: small">Excelencia</p>
-          </div>
-        </v-col>
-        <v-col>
-          <div id="greysquare">
-            <v-img
-              src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-              max-width="80"
-            ></v-img>
-            <p style="font-size: small">Integridad</p>
-          </div>
-        </v-col>
-        <v-col>
-          <div id="greysquare">
-            <v-img
-              src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-              max-width="80"
-            ></v-img>
-            <p style="font-size: small; text-align: center">Servicio</p>
-          </div>
-        </v-col>
-        <v-col>
-          <div id="greysquare">
-            <v-img
-              src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-              max-width="80"
-            ></v-img>
-            <p style="font-size: small; text-align: left">Responsabilidad</p>
-          </div>
-        </v-col>
-        <v-col>
-          <div id="greysquare">
-            <v-img
-              src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-              max-width="80"
-            ></v-img>
-            <p style="font-size: small">Perseverancia</p>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
+    <v-row justify="center">
+      <v-col v-for="n in 5" :key="n" class="d-flex flex-wrap child-flex"
+      cols="2">
+        <v-img contain :src="require(`@/assets/images/val${n}.png`)" height="180"></v-img>
+      </v-col>      
+    </v-row>
   </div>
 </template>
 
@@ -222,6 +181,10 @@
   height: 18vh;
   padding: 10% 20%;
 }
+
+img {
+   height: 125%   
+ }
 </style>
 
 <script>

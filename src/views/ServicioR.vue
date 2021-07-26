@@ -3,7 +3,8 @@
     <br />
     <v-container class="" style="padding-top: 10%">
       <v-row>
-        <v-col>
+        <v-spacer></v-spacer>        
+        <v-col cols=3>
           <v-layout id="txt4" column justify-center align-right>
             <h2 id="title1">Servicio de renovado</h2>
             <p>
@@ -16,30 +17,31 @@
             </p>
           </v-layout>
         </v-col>
-        <v-col>
+        <v-col cols=8>
           <v-img
             id=""
             style="margin-right: 20%"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
+            src="http://localhost:8081/static/Productos.jpg"
             max-width="600"
           >
           </v-img>
         </v-col>
+        
       </v-row>
     </v-container>
     <br /><br />
     <v-container class="">
       <v-row>
-        <v-col>
+        <v-col cols=7>
           <v-img
             id="img2"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
+            src="http://localhost:8081/static/Productos5.jpg"
             max-width="600"
           >
           </v-img>
         </v-col>
-        <v-col>
-          <v-layout id="txt2" column justify-center align-left>
+        <v-col cols=3>
+          <v-layout id="txt2" class="mt-8" column justify-center>
             <h2 id="title1"></h2>
             <p>
               Las llantas renovadas por RECANOR, ofrecen las mismas
@@ -49,6 +51,7 @@
             </p>
           </v-layout>
         </v-col>
+        <v-spacer></v-spacer>
       </v-row>
     </v-container>
     
@@ -68,8 +71,8 @@
         sm="6"
         md="1"
       >
-          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-            max-width="90"
+          <v-img :src="require('@/assets/images/sec.png')"
+            max-width="60"
             justify-center>
           </v-img>
       </v-col>
@@ -100,8 +103,8 @@
         sm="6"
         md="1"
       >
-          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-            max-width="90"
+          <v-img :src="require('@/assets/images/pri.png')"
+            max-width="60"
             justify-center>
           </v-img>
       </v-col>
@@ -129,9 +132,9 @@
         sm="6"
         md="1"
       >
-          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-            max-width="90"
-            justify-center>
+          <v-img :src="require('@/assets/images/cap.png')"
+            max-width="60"
+            >
           </v-img>
       </v-col>
       <v-col
@@ -161,8 +164,8 @@
         sm="6"
         md="1"
       >
-          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-            max-width="90"
+          <v-img  :src="require('@/assets/images/prm.png')"
+            max-width="60"
             justify-center>
           </v-img>
       </v-col>
@@ -192,8 +195,8 @@
         md="1"
         align-self="right"
       >
-          <v-img src="https://pbs.twimg.com/profile_images/542008457939800065/lvhpGe50_400x400.png"
-            max-width="90"
+          <v-img :src="require('@/assets/images/amb.png')"
+            max-width="60"
             justify-center>
           </v-img>
       </v-col>
@@ -214,16 +217,16 @@
     </v-row>
   </v-container>
 
-  <v-parallax
-    dark
-    height="600"
-    src="https://wallpapercave.com/wp/wp5569141.jpg">
-  </v-parallax>
+
+  <v-img       
+    contain    
+    src="http://localhost:8081/static/Productos6.jpg">
+  </v-img>
 
   <br />
 
-    <div class="d-flex flex-column justify-center align-center">
-      <v-img src="https://wallpapercave.com/wp/wp5569141.jpg" max-width="1100">
+    <div align=center justify=center>
+      <v-img src="http://localhost:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
       </v-img>
     </div>
 

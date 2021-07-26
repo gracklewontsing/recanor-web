@@ -2,20 +2,23 @@
   <v-parallax
     dark
     height="800"
-    src="https://wallpapercave.com/wp/wp5569141.jpg"
+    src="http://localhost:8081/static/HOME1.jpg"
   >
-    <v-layout
-      align-left
-      column
-      justify-center
-      style="margin-top: 2.5em; margin-left: 3em"
+    <v-row 
+      align="center"      
+      justify="center" 
     >
-      <h3 id="hometitle">Mantenemos tu negocio<br />en movimiento</h3>
-      <h4 id="hometext">
-        Hacemos que tu llanta usada adquiera el aspecto y las
-        <br />caracteristicas fisicas de una llanta nueva
-      </h4>
-    </v-layout>
+      <v-col    
+        style="margin-top: 2.5em; margin-left: 3em"
+      >
+        <h3 id="hometitle">Mantenemos tu negocio<br />en movimiento</h3>
+        <h4 id="hometext">
+          Hacemos que tu llanta usada adquiera el aspecto y las
+          <br />caracteristicas fisicas de una llanta nueva
+        </h4>      
+        <v-btn color="#2a89b1" class="text-left mx-auto my-5 white--text">Ver video</v-btn>      
+      </v-col>
+    </v-row>
   </v-parallax>
 </template>
 

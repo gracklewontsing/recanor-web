@@ -2,14 +2,22 @@
   <v-layout>
     <v-app-bar
       app
-      dark
+      dark      
       hide-on-scroll
+      height="100%"      
       class="homepage-toolbar hidden-md-and-down"
     >
       <router-link to="/">
-        <v-img
-          :src="require('@/assets/Logo RECANOR.jpg')"
-          class="mx-10"
+        <v-img v-if="this.$route.name === 'Home'"
+          :src="require('@/assets/Logo.png')"          
+          class="mx-10 mb-10"          
+          max-height="80"
+          max-width="80"
+          absolute
+        ></v-img>
+        <v-img v-else
+          :src="require('@/assets/Logo-dark.png')"
+          class="mx-10 mb-10"          
           max-height="80"
           max-width="80"
           absolute
@@ -68,7 +76,7 @@
       <v-toolbar-side-icon class="ml-n9">
         <router-link to="/">
           <v-img
-            :src="require('@/assets/Logo RECANOR.jpg')"
+            :src="require('@/assets/Logo-dark.png')"
             class="mx-n1"
             max-height="80"
             max-width="80"

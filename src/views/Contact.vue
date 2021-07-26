@@ -1,28 +1,28 @@
 <template>  
   <div class="my-10">
-    <v-parallax
-    dark
-    height="400"
+    <v-parallax    
+    
     class="mt-16"
-    src="https://wallpapercave.com/wp/wp5569141.jpg" /> 
+    src="http://localhost:8081/static/Contacto.jpg"/> 
     <v-row class="my-5 mt-16 mx-auto d-flex justify-center">
       
       <v-col class="px-16">
         <GmapMap
-          :center="{lat:10, lng:10}"
-          :zoom="7"
+          :center="{lat:28.7480754, lng:-106.154994}"
+          :zoom="16"
           map-type-id="terrain"
           style="width: 500px; height: 600px"
           class="mx-auto"
         >
-          <GmapMarker
-            :key="index"
-            v-for="(m, index) in markers"
-            :position="m.position"
+          <GmapMarker                        
+            :position="{lat:28.74808, lng:-106.15280}"
             :clickable="true"
             :draggable="true"
-            @click="center=m.position"
+            @click="openInfoWindowTemplate({lat:28.74808, lng:-106.15280})"
           />
+          <gmap-info-window :options="{maxWidth: 300}" :position="infoWindow.position" :opened="infoWindow.open" @closeclick="infoWindow.open = false">
+        <div id="thediv">Oficinas Recanor</div>
+      </gmap-info-window>
         </GmapMap>
       </v-col>
       <v-col class="px-16">
@@ -140,11 +140,10 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-parallax
-    dark
-    
+    <v-img
+    dark    
     class="mt-16"
-    src="https://wallpapercave.com/wp/wp5569141.jpg" /> 
+    src="http://localhost:8081/static/Contacto1.jpg" /> 
   </div>      
 </template>
 
@@ -168,12 +167,30 @@
         v => !!v || 'Se requiere un mensaje'
       ],
       checkbox: false,
+      infoWindow: {
+              position: {
+                lat: 28.74808,
+                lng: -106.15280
+              },
+              open: false,
+              template: ''
+            },
+            clicked: false
+          
     }),
 
     methods: {
       sendEmail(){
-        
-      }
+        if(this.name == "" || this.message == "" || this.email == ""){
+          alert("No debe haber campos vacíos.")
+        }
+      },
+      openInfoWindowTemplate (pos) {
+            this.infoWindow.position = pos
+            this.infoWindow.open = true
+
+            this.clicked = true
+          }
     },
   }
 </script>

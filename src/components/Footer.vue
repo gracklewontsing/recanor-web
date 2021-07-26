@@ -7,7 +7,7 @@
       <v-row>        
         <v-col>
           <v-img
-            :src="require('@/assets/Logo RECANOR.jpg')"
+            :src="require('@/assets/Logo-dark.png')"            
             class="my-n1"            
             max-width="90"
             justify-center
@@ -22,9 +22,9 @@
         </v-col>
         <v-col>
           <v-layout id="" align-center column justify-center>
-            <p>Inicio</p>
-            <p>Política de Privacidad</p>
-            <p>Mapa de Sitio</p>
+            <router-link to="/" class="black--text" style="text-decoration: none;"><p>Inicio</p></router-link>
+            <router-link to="/privacidad" class="black--text" style="text-decoration: none;"><p>Política de Privacidad</p></router-link>
+            <router-link to="/sitemap.xml" class="black--text" style="text-decoration: none;"><p>Mapa de Sitio</p></router-link>
           </v-layout>
         </v-col>
         <v-col>

@@ -3,9 +3,8 @@
     <br />
 
   <v-parallax
-    dark
-    height="600"
-    src="https://wallpapercave.com/wp/wp5569141.jpg">
+    dark    
+    src="http://localhost:8081/static/Productos1.jpg">
   </v-parallax>
 
    <br /><br />
@@ -19,15 +18,16 @@
         cols="6">
           <v-img
             id="img2"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
+            src="http://localhost:8081/static/Productos3.jpg"            
             max-width="600"
         >
         </v-img>
         <br />
         <v-img
             id="img2"
-            src="https://wallpapercave.com/wp/wp5569141.jpg"
-            max-width="600"
+            :src="require('@/assets/images/brands.png')"
+            max-width="300"
+            class="ml-16"
         >
         </v-img>
         </v-col>
@@ -40,8 +40,9 @@
             et, vidit solet tincidunt quo ad, moderatius contentiones nec no. Nam et puto abhorreant scripserit, et cum 
             inimicus accusamus.
 
-            <br /><br />
-
+            </p>
+            <hr color="white" class="my-3">
+            <p id="text1">
             Wisi forensibus mnesarchum in cum. Per id impetus abhorreant, his no magna definiebas, inani rationibus 
             in quo. Ut vidisse dolores est, ut quis nominavi mel. Ad pri quod apeirian concludaturque, id timeam iudicabit
              rationibus pri. Erant putant luptatum ex sit,
@@ -53,8 +54,8 @@
 
     <br /><br />
 
-    <div class="d-flex flex-column justify-center align-center">
-      <v-img src="https://wallpapercave.com/wp/wp5569141.jpg" max-width="1100">
+    <div align=center justify=center>
+      <v-img src="http://localhost:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
       </v-img>
     </div>
 
