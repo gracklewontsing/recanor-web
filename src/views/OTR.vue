@@ -21,14 +21,14 @@
     <br /><br />
 
     <div class="d-flex flex-column justify-center align-center">
-      <v-img src="http://localhost:8081/static/Productos2.jpg" max-width="1100">
+      <v-img src="http://212.1.214.191:8081/static/Productos2.jpg" max-width="1100">
       </v-img>
     </div>
 
     <br /><br />
 
     <div align=center justify=center>
-      <v-img src="http://localhost:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
+      <v-img src="http://212.1.214.191:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
       </v-img>
     </div>  
   </div>

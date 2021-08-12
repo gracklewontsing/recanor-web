@@ -21,7 +21,7 @@
           <v-img
             id=""
             style="margin-right: 20%"
-            src="http://localhost:8081/static/Productos.jpg"
+            src="http://212.1.214.191:8081/static/Productos.jpg"
             max-width="600"
           >
           </v-img>
@@ -35,7 +35,7 @@
         <v-col cols=7>
           <v-img
             id="img2"
-            src="http://localhost:8081/static/Productos5.jpg"
+            src="http://212.1.214.191:8081/static/Productos5.jpg"
             max-width="600"
           >
           </v-img>
@@ -220,13 +220,13 @@
 
   <v-img       
     contain    
-    src="http://localhost:8081/static/Productos6.jpg">
+    src="http://212.1.214.191:8081/static/Productos6.jpg">
   </v-img>
 
   <br />
 
     <div align=center justify=center>
-      <v-img src="http://localhost:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
+      <v-img src="http://212.1.214.191:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
       </v-img>
     </div>
 

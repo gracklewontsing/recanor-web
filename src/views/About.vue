@@ -50,7 +50,7 @@
         <v-col>
           <v-img
             id="img2"
-            src="http://localhost:8081/static/Sobre Nosotros3.jpg"
+            src="http://212.1.214.191:8081/static/Sobre Nosotros3.jpg"
             max-width="600"
           >
           </v-img>
@@ -83,7 +83,7 @@
           <v-img
             id=""
             style="margin-right: 20%"
-            src="http://localhost:8081/static/Sobre Nosotros.jpg"
+            src="http://212.1.214.191:8081/static/Sobre Nosotros.jpg"
             max-width="600"
           >
           </v-img>

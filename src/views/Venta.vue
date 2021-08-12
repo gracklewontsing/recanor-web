@@ -4,7 +4,7 @@
 
   <v-parallax
     dark    
-    src="http://localhost:8081/static/Productos1.jpg">
+    src="http://212.1.214.191:8081/static/Productos1.jpg">
   </v-parallax>
 
    <br /><br />
@@ -18,7 +18,7 @@
         cols="6">
           <v-img
             id="img2"
-            src="http://localhost:8081/static/Productos3.jpg"            
+            src="http://212.1.214.191:8081/static/Productos3.jpg"            
             max-width="600"
         >
         </v-img>
@@ -55,7 +55,7 @@
     <br /><br />
 
     <div align=center justify=center>
-      <v-img src="http://localhost:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
+      <v-img src="http://212.1.214.191:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
       </v-img>
     </div>
 

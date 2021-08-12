@@ -3,7 +3,7 @@
     <v-parallax    
     
     class="mt-16"
-    src="http://localhost:8081/static/Contacto.jpg"/> 
+    src="http://212.1.214.191:8081/static/Contacto.jpg"/> 
     <v-row class="my-5 mt-16 mx-auto d-flex justify-center">
       
       <v-col class="px-16">
@@ -143,7 +143,7 @@
     <v-img
     dark    
     class="mt-16"
-    src="http://localhost:8081/static/Contacto1.jpg" /> 
+    src="http://212.1.214.191:8081/static/Contacto1.jpg" /> 
   </div>      
 </template>
 
