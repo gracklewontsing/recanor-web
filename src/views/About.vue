@@ -4,7 +4,7 @@
     <v-parallax
       dark       
       height=600                     
-      src="http://localhost:8081/static/Sobre Nosotros1.jpg"      
+      src="http://212.1.214.191:8081/static/Sobre Nosotros1.jpg"      
     >
       <v-layout id="txt0" column justify-center>
         <h1 id="title0">Talento humano capacitado</h1>
@@ -40,7 +40,7 @@
     <br /><br />
 
     <div class="d-flex flex-column justify-center align-center">
-      <v-img src="http://localhost:8081/static/Sobre Nosotros2.jpg" width="90%">
+      <v-img src="http://212.1.214.191:8081/static/Sobre Nosotros2.jpg" width="90%">
       </v-img>
     </div>
 

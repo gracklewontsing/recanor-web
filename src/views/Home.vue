@@ -2,7 +2,7 @@
   <v-parallax
     dark
     height="800"
-    src="http://localhost:8081/static/HOME1.jpg"
+    src="http://212.1.214.191:8081/static/HOME1.jpg"
   >
     <v-row 
       align="center"      
