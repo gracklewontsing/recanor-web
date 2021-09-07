@@ -19,6 +19,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import( /*webpackChunkName: "about"*/  "../views/About.vue"),
+
   },
   {
     path: "/renovado",
@@ -50,17 +51,38 @@ const routes = [
   {
     path:"/contacto",
     name: "Contacto",
-    component: () => import("../views/Contact.vue")
+    component: () => import("../views/Contact.vue"),
+
   },
   {
     path:"/noticias",
     name:"Noticias",
-    component: () => import("../views/Noticias.vue")
+    component: () => import("../views/Noticias.vue"),
+
   },
   {
     path:"/login",
     name:"Login",
-    component: () => import("../views/Login.vue")
+    component: () => import("../views/Login.vue"),
+  },
+  {
+    path:"/newsManager",
+    name:"manager",
+    component: () => import("../views/NewsManager"),
+    beforeEnter: (to, from, next) => {
+      if(localStorage.getItem('jwt') === null){
+        next('/login')
+      } else {
+      if(localStorage.getItem('user') !== null)
+        next()
+      }
+    }
+  },
+  {
+    path:'/articulo/:id',
+    name:"Articulo",
+    component: () => import("../views/Article"),
+    props:true
   }
 ];
 

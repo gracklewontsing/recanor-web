@@ -2,22 +2,24 @@
     <div class="container my-5">
         <div class="row">
             <div class="col-md-6 mt-5 mx-auto">
-                <form v-on:submit.prevent="login">
-                    <h1 class="h3 mb-3 font-weight-normal">Iniciar Sesión</h1>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" v-model="email" class="form-control" name="email" placeholder="Enter Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="username">Usuario</label>
-                        <input type="text" v-model="username" class="form-control" name="username" placeholder="Nombre de usuario">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Contraseña</label>
-                        <input type="password" v-model="password" class="form-control" name="password" placeholder="Contraseña">
-                    </div>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                </form>
+                <v-form v-on:submit.prevent="login">
+                  <v-container class="my-15">
+                    <h1 class="text-center">Iniciar Sesión</h1>     
+
+                    <v-text-field
+                      v-model="email"                      
+                      label="E-mail"
+                      required
+                    ></v-text-field>                                       
+                    <v-text-field
+                      v-model="password"
+                      type="password"
+                      label="Password"
+                      required
+                    ></v-text-field>                   
+                    <v-btn @click="login" depressed color="primary" block>ENTRAR</v-btn>
+                  </v-container>
+                </v-form>
             </div>
         </div>
     </div>
@@ -25,39 +27,35 @@
 
 <script>
 import axios from 'axios'
-import router from '../router'
-import EventBus from './EventBus'
 export default {
   data () {
     return {
       email: '',
-      password: '',
-      username: ''
+      password: '',      
     }
   },
   methods: {
     login () {
-      axios.post('http://212.1.214.191:8081/users/login', {
-        email: this.email,
-        username: this.username,
+      console.log("logging...", this.email, this.password)
+      axios.post('http://localhost:8081/user/login', {
+      //axios.post('http://212.1.214.191:8081/user/login', {
+        email: this.email,        
         password: this.password
       }).then(res => {
         if (res.data.error) {
           console.log(res.data.error);
           return ;
-        }
-        localStorage.setItem('usertoken', res.data);
-        this.username = '';
-        this.password = '';
-        this.emitMethod()
+        }                                
+        localStorage.setItem('jwt', res.data);
+        if (localStorage.getItem('jwt') != null) {
+          this.$emit('loggedin')
+          this.$router.push(this.$route.params.nextUrl)
+        }        
         //send to news manager instead
-        router.push({ name: 'Home' });
+        this.$router.push({ name: 'manager' });
       }).catch(err => {
         console.log(err);
       })
-    },
-    emitMethod () {
-      EventBus.$emit('logged-in', 'loggedin');
     }
   }
 }

@@ -24,6 +24,7 @@
           <v-layout id="" align-center column justify-center>
             <router-link to="/" class="black--text" style="text-decoration: none;"><p>Inicio</p></router-link>
             <router-link to="/privacidad" class="black--text" style="text-decoration: none;"><p>Política de Privacidad</p></router-link>
+            <router-link to="/login" class="black--text" style="text-decoration: none;"><p>Empleados</p></router-link>
             <router-link to="/sitemap.xml" class="black--text" style="text-decoration: none;"><p>Mapa de Sitio</p></router-link>
           </v-layout>
         </v-col>

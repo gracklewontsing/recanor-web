@@ -5,6 +5,7 @@ import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import * as VueGoogleMaps from 'vue2-google-maps'
 
+Vue.config.silent = true
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyCm5Y3IjwtKGQH0DGXxunkc9NJ8MkkZBCc',
