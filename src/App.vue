@@ -7,8 +7,14 @@
 </template>
 
 <style>
-  #application,.v-application, html{
-    font-family:"Montserrat" !important;
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat-Regular.ttf") format("truetype");
+  }
+
+  #application,.v-application, html {
+    font-family: "Montserrat" !important;
   }
 
   .homepage-toolbar {

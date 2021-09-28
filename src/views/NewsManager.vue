@@ -243,7 +243,7 @@ export default {
       formData.append('title', this.editedItem.title)
       formData.append('author', this.editedItem.author)
       formData.append('content', this.editedItem.content)      
-      formData.append('image',"http://212.1.214.191:8081/public/"+this.file.files[0].name)
+      formData.append('image',"http://212.1.214.191:8081/public/"+this.file.files[0].name.toLowerCase())
       //IF NEW NEWS
       if (this.editedIndex == -1) {
         console.log("create call")        

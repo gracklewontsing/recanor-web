@@ -73,7 +73,6 @@ const routes = [
       if(localStorage.getItem('jwt') === null){
         next('/login')
       } else {
-      if(localStorage.getItem('user') !== null)
         next()
       }
     }
