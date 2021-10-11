@@ -8,12 +8,14 @@
           <v-layout id="txt4" column justify-center align-right>
             <h2 id="title1">Servicio de renovado</h2>
             <p>
-              El servicio de Renovado de Llantas, consiste en retirar el hule
-              remanente del piso de la llanta, reparar los daños infringidos
-              durante la operación y reponer los componentes necesarios hasta
-              dejarla en condiciones de nueva, en resumen, es la forma de
-              alargar la vida útil de una llanta, mediante un proceso de
-              renovación.
+              Consiste en la selección minuciosa de los cascos para determinar cuales son funcionables, 
+repararlas y mediante un proceso de vulcanización obtener un producto de primer nivel. <br>
+Gracias a la calidad de la materia prima que utilizamos y a nuestro proceso controlado, la fiabilidad y la 
+durabilidad  de nuestro producto permite competir en términos de rendimiento con neumáticos nuevos 
+de las primeras marcas. 
+<br> Seleccionamos la banda de rodamiento que mas se adapte a sus necesidades y realizamos reparaciones 
+profesionales en caso de ser necesarias. ¿El resultado?  Un producto que brinde el desempeño y la 
+seguridad de un producto nuevo. 
             </p>
           </v-layout>
         </v-col>
@@ -44,10 +46,9 @@
           <v-layout id="txt2" class="mt-8" column justify-center>
             <h2 id="title1"></h2>
             <p>
-              Las llantas renovadas por RECANOR, ofrecen las mismas
-              características que una llanta nueva, es decir: Seguridad,
-              calidad, rendimiento kilométrico, comportamiento en carretera y
-              adherencia para cualquier tipo de superficie.
+              Las llantas renovadas por RECANOR, ofrecen las mismas características que una llanta nueva, es decir: 
+Seguridad, calidad, rendimiento kilométrico, comportamiento en carretera y adherencia para cualquier 
+tipo de superficie. 
             </p>
           </v-layout>
         </v-col>

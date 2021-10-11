@@ -6,15 +6,19 @@
             <h2 id="title1">Llantas OTR</h2>
             <br />
             <p id="text1">
-            In mel saperet expetendis. Vitae urbanitas sadipscing nec ut, at vim quis lorem labitur. Exerci electram has 
-            et, vidit solet tincidunt quo ad, moderatius contentiones nec no. Nam et puto abhorreant scripserit, et cum 
-            inimicus accusamus.
+            Recanor tiene una alianza comercial para la distribución de llanta OTR e Industrial marca Bridgestone.  
+            Por lo que brindamos las siguientes soluciones. 
 
             <br /><br />
-
-            Wisi forensibus mnesarchum in cum. Per id impetus abhorreant, his no magna definiebas, inani rationibus 
-            in quo. Ut vidisse dolores est, ut quis nominavi mel. Ad pri quod apeirian concludaturque, id timeam iudicabit
-             rationibus pri. Erant putant luptatum ex sit,
+            1.  Suministro de llanta OTR marca Bridgestone.  <br>
+            2.  Analisis de carga del equipo y de la operación  para la selección de la llanta adecuada. <br>
+            3.  Seguimientos mensuales en sitio sin costo. <br>
+            4.  Reportes de rendimiento sobre las llantas sin costo. <br>
+            5.  Capacitaciones constantes sobre el uso correcto, seguridad, montaje y desmontaje.  <br>
+            6.  Suministramos consumibles y herramienta para el cuidado y manejo adecuado.  <br>
+            7.  ¿Lo nuestro? Al ser una planta renovadora, conocemos la estuctura de las llantas a la perfeccion 
+              y por esto ofrecemos el servicio de reparación de neumáticos OTR mediante el uso de tecnología 
+              de punta para garantizar que sigan operando bajo las condiciones mas severas. <br>
             </p>
           </v-layout>
 

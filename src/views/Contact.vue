@@ -30,6 +30,7 @@
         <div class="text-body-1 mb-5">Mándanos un mensaje para más información</div>
         <v-form
           ref="form"
+          id="contactForm"
           v-model="valid"          
           lazy-validation
         >
@@ -149,6 +150,7 @@
 
 <script>
   import VueRecaptcha from 'vue-recaptcha';
+  import emailjs from 'emailjs-com';
   export default {    
     components: { VueRecaptcha },
     data: () => ({
@@ -181,9 +183,27 @@
 
     methods: {
       sendEmail(){
-        if(this.name == "" || this.message == "" || this.email == ""){
-          alert("No debe haber campos vacíos.")
+        if (this.name && this.message && this.email) {
+          this.disableSubmit = true;
+          this.$recaptcha("contactus").then((token) =>{
+            if(token){
+              emailjs.send("","");
+              emailjs.sendForm('service_3a3mtbi', 'template_pk2e7i8', 'contactForm', "user_wTvdMgOWbeUGQhdiJqB8u",{
+                name: this.name,
+                email: this.email,
+                message: this.message
+              })
+              .then((result) => {
+                alert("Mensaje enviado correctamente.")
+                console.log('SUCCESS!', result.status, result.text);
+              }, (error) => {
+                alert("Ocurrió un error, por favor intente más tarde.")
+                console.log('FAILED...', error);
+              });
+            }
+          })          
         }
+	      else { alert("Se requieren todos los datos") }
       },
       openInfoWindowTemplate (pos) {
             this.infoWindow.position = pos

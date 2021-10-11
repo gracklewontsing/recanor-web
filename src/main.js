@@ -4,7 +4,9 @@ import router from "./router";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import * as VueGoogleMaps from 'vue2-google-maps'
+import{ init } from 'emailjs-com';
 
+init("user_wTvdMgOWbeUGQhdiJqB8u");
 Vue.config.silent = true
 Vue.use(VueGoogleMaps, {
   load: {

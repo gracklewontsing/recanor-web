@@ -23,29 +23,23 @@
         >
         </v-img>
         <br />
-        <v-img
-            id="img2"
-            :src="require('@/assets/images/brands.png')"
-            max-width="300"
-            class="ml-16"
-        >
-        </v-img>
         </v-col>
         <v-col>
           <v-layout id="llantaslayout" column justify-center align-left>
             <h2 id="title1">Venta de llantas nuevas</h2>
             <br />
             <p id="text1">
-            In mel saperet expetendis. Vitae urbanitas sadipscing nec ut, at vim quis lorem labitur. Exerci electram has 
-            et, vidit solet tincidunt quo ad, moderatius contentiones nec no. Nam et puto abhorreant scripserit, et cum 
-            inimicus accusamus.
-
+            Recanor ha establecido alianzas comerciales para la distribución de llanta nueva.  <br>
+Como la política de Recanor es brindar productos de calidad, dichas alianzas comerciales se han 
+realizado con marcas de primer nivel para brindar una confiabilidad de nuestros productos a nuestros 
+clientes. Contacta a nuestro agente de ventas para una cotización sin compromiso sobre tus 
+necesidades. 
             </p>
             <hr color="white" class="my-3">
             <p id="text1">
-            Wisi forensibus mnesarchum in cum. Per id impetus abhorreant, his no magna definiebas, inani rationibus 
-            in quo. Ut vidisse dolores est, ut quis nominavi mel. Ad pri quod apeirian concludaturque, id timeam iudicabit
-             rationibus pri. Erant putant luptatum ex sit,
+            El esquema de venta de llanta nueva entra en nuestra filosofía de economía circular ya que ayudamos a 
+nuestros clientes a obtener el mayor rendimiento de sus llantas originales brindándoles una nueva vida.  <br>
+Ademas podemos proporcionar cualquier tipo de llanta nueva asi sea para usos epecializados. 
             </p>
           </v-layout>
         </v-col>

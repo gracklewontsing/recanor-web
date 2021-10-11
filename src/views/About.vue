@@ -17,23 +17,16 @@
     <v-layout id="txt1" column justify-center>
       <h3 id="title1" class="mb-5">Sobre nosotros</h3>
       <h4 id="text1">
-        “RECANOR”, surge en el año 2015, gracias a sus dos socios fundadores
-        “Alonso y Ruth”, pareja que residía en ese entonces en Huelva, un
-        pequeño poblado ubicado en la comunidad de Andalucía en España, país, en
-        donde por Ley un neumático debe ser renovado hasta 3 veces, o hasta que
-        la vida de la estructura del neumático lo permita y lugar donde surge la
-        idea que nos llevaría a lograr lo que hoy es “RECANOR”. </h4>      
+        En RECANOR nos interesamos por la calidad del producto que fabricamos, es por eso que ofrecemos  
+servicio de asesoría  para satisfacer las necesidades de nuestros clientes. </h4>      
       <hr class="my-2" color="white">
       <h4 id="text1">
-        En 2016 la pareja cambia de residencia a su lugar de nacimiento, en
-        Chihuahua, Chihuahua. Donde con el ideal de fundar un negocio que genere
-        un beneficio a su Estado de Origen, inician con el proyecto de
-        “RECANOR”, al lado de 6 socios más.</h4>
+         Nuestro producto es fabricado bajo estrictas normas de calidad y tecnología avanzada en el  
+proceso, contribuyendo además a preservar el medio ambiente ya que reciclamos neumáticos 
+usados.  </h4>
       <hr class="my-2" color="white">
-      <h4 id="text1">
-        Es así que, en octubre del 2018, “RECANOR” abre sus puertas al público
-        en la Ciudad de Chihuahua, ofreciendo a sus clientes el “Servicio de
-        Renovado y Venta de Neumáticos”.
+      <h4 id="text1">        
+ Ayudamos en la optimización de costos de nuestros clientes ofreciendo un producto de calidad. 
       </h4>
     </v-layout>
 
@@ -59,8 +52,9 @@
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Misión</h2>
             <p>
-              Hacer que su neumático usado adquiera el aspecto y las
-              características físicas de un neumático nuevo.
+              Ser una empresa socialmente comprometida enfocada en la seguridad de nuestros trabajadores y en un 
+profundo respeto por el medioambiente. Nos esforzamos por satisfacer la necesidad de nuestros clientes 
+ofreciendo un producto fabricado con altos estándares de calidad. 
             </p>
           </v-layout>
         </v-col>
@@ -73,9 +67,8 @@
           <v-layout id="txt4" column justify-center align-right>
             <h2 id="title1">Visión</h2>
             <p>
-              Incrementar y/o generar en los seres humanos conciencia sobre la
-              importancia del uso de neumáticos renovados y la relevancia que
-              esto puede tener en el cuidado medio ambiente.
+              Ser una empresa que contribuya al cuidado del medioambiente introduciendo la filosofía del renovado y 
+consumo responsable de neumáticos. 
             </p>
           </v-layout>
         </v-col>
