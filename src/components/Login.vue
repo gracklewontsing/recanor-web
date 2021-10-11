@@ -37,8 +37,8 @@ export default {
   methods: {
     login () {
       console.log("logging...", this.email, this.password)
-      axios.post('http://localhost:8081/user/login', {
-      //axios.post('http://212.1.214.191:8081/user/login', {
+      //axios.post('http://localhost:8081/user/login', {
+      axios.post('http://212.1.214.191:8081/user/login', {
         email: this.email,        
         password: this.password
       }).then(res => {
