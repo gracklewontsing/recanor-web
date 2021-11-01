@@ -149,6 +149,7 @@
 </template>
 
 <script>
+/* eslint-disable no-mixed-spaces-and-tabs */
   import VueRecaptcha from 'vue-recaptcha';
   import emailjs from 'emailjs-com';
   export default {    

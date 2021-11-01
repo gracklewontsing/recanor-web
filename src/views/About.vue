@@ -32,10 +32,10 @@ usados.  </h4>
 
     <br /><br />
 
-    <div class="d-flex flex-column justify-center align-center">
+    <!--div class="d-flex flex-column justify-center align-center">
       <v-img src="http://212.1.214.191:8081/static/Sobre Nosotros2.jpg" width="90%">
       </v-img>
-    </div>
+    </div-->
 
     <br /><br />
     <v-container class="">
