@@ -98,9 +98,10 @@ consumo responsable de neumáticos.
     <br /><br />
 
     <v-row justify="center">
-      <v-col v-for="n in 5" :key="n" class="d-flex flex-wrap child-flex"
-      cols="2">
-        <v-img contain :src="require(`@/assets/images/val${n}.png`)" height="180"></v-img>
+      <v-col class="d-flex flex-wrap child-flex"
+       cols="9">
+        <!-- <v-img contain :src="require(`@/assets/images/val${n}.png`)" height="180"></v-img> -->
+         <v-img :src="require('@/assets/images/values.png')" width="800"></v-img> 
       </v-col>      
     </v-row>
   </div>

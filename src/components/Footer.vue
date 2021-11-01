@@ -4,8 +4,8 @@
       <v-row class="pt-0 pb-6">
         <v-divider></v-divider>
       </v-row>
-      <v-row>        
-        <v-col>
+      <v-row class="mb-n1">        
+        <v-col cols="3">
           <v-img
             :src="require('@/assets/Logo-dark.png')"            
             class="my-n1"            
@@ -13,27 +13,26 @@
             justify-center
           ></v-img>
         </v-col>
-        <v-col>
+        <v-col cols="3">
           <v-layout id="" align-center column justify-center>
-            <p>© RECANOR 2021</p>
-            <p>Todos los derechos</p>
-            <p>reservados</p>
+            <p class="text-center" style="line-height:1;">© RECANOR 2021</p>
+            <p class="text-center" style="line-height:1;">Todos los derechos reservados</p>
           </v-layout>
         </v-col>
-        <v-col>
+        <v-col cols="3">
           <v-layout id="" align-center column justify-center>
             <router-link to="/" class="black--text" style="text-decoration: none;"><p>Inicio</p></router-link>
-            <router-link to="/privacidad" class="black--text" style="text-decoration: none;"><p>Política de Privacidad</p></router-link>
-            <router-link to="/login" class="black--text" style="text-decoration: none;"><p>Empleados</p></router-link>
-            <router-link to="/sitemap.xml" class="black--text" style="text-decoration: none;"><p>Mapa de Sitio</p></router-link>
+            <router-link to="/privacidad" class="black--text" style="text-decoration: none;line-height:1;"><p>Política de Privacidad</p></router-link>
+            <router-link to="/login" class="black--text" style="text-decoration: none;line-height:1;"><p>Empleados</p></router-link>
+            <router-link to="/sitemap.xml" class="black--text my-auto" style="text-decoration: none;line-height:1;"><p>Mapa de Sitio</p></router-link>
           </v-layout>
-        </v-col>
-        <v-col>
-          <v-layout id="mimica" align-right column>
-            <p>Powered by MIMICA</p>
+        </v-col>    
+        <v-col cols="3" align-self="end">
+          <v-layout id="mimica" column>
+            <p style="line-height:1;">Powered by MIMICA</p>
           </v-layout>
-        </v-col>
-      </v-row>
+        </v-col>          
+      </v-row>            
     </v-container>
   </v-footer>
 </template>

@@ -4,7 +4,7 @@
     <v-container class="" style="padding-top: 10%">
       <v-row>
         <v-spacer></v-spacer>        
-        <v-col cols=3>
+        <v-col cols=5>
           <v-layout id="txt4" column justify-center align-right>
             <h2 id="title1">Servicio de renovado</h2>
             <p>
@@ -19,12 +19,12 @@ seguridad de un producto nuevo.
             </p>
           </v-layout>
         </v-col>
-        <v-col cols=8>
+        <v-col cols=7>
           <v-img
             id=""
             style="margin-right: 20%"
             src="http://212.1.214.191:8081/static/Productos.jpg"
-            max-width="600"
+            max-width="500"
           >
           </v-img>
         </v-col>
@@ -217,28 +217,19 @@ tipo de superficie.
       </v-col>
     </v-row>
   </v-container>
-
-
   <v-img       
     contain    
     src="http://212.1.214.191:8081/static/Productos6.jpg">
   </v-img>
-
   <br />
-
-    <div align=center justify=center>
-      <v-img src="http://212.1.214.191:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
-      </v-img>
+    <div align=center justify=center>      
+      <v-img :src="require('../assets/images/Infografía.png')" class="ml-8" max-width="1100"></v-img>
     </div>
-
-
-
   </div>
 </template>
 
 
 <style lang="css">
-
 #text1 {
   font-size: 17px;
   font-weight: lighter;
@@ -249,16 +240,12 @@ tipo de superficie.
   font-weight: lighter;
   font-size: 35px;
 }
-
 </style>
 
 <script>
-
-
 export default {
   name: "Renovado",
   components: {
-
   },
 };
 </script>

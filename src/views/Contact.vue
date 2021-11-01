@@ -78,7 +78,6 @@
           </vue-recaptcha>
         </v-form>        
       </v-col>
-      
     </v-row>
     <div class="mx-auto text-h4 primary--text my-10 text-center">Estamos para servirte</div>
     <v-row align="stretch" class="mx-16 d-md-flex d-sm-inline justify-center">
