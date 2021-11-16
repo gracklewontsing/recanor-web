@@ -5,21 +5,20 @@
           <v-layout id="otr" column justify-center align-left>
             <h2 id="title1">Llantas OTR</h2>
             <br />
-            <p id="text1">
+            <p id="text1" class="text-justify">
             Recanor tiene una alianza comercial para la distribución de llanta OTR e Industrial marca Bridgestone.  
-            Por lo que brindamos las siguientes soluciones. 
-
-            <br /><br />
-            1.  Suministro de llanta OTR marca Bridgestone.  <br>
-            2.  Analisis de carga del equipo y de la operación  para la selección de la llanta adecuada. <br>
-            3.  Seguimientos mensuales en sitio sin costo. <br>
-            4.  Reportes de rendimiento sobre las llantas sin costo. <br>
-            5.  Capacitaciones constantes sobre el uso correcto, seguridad, montaje y desmontaje.  <br>
-            6.  Suministramos consumibles y herramienta para el cuidado y manejo adecuado.  <br>
-            7.  ¿Lo nuestro? Al ser una planta renovadora, conocemos la estuctura de las llantas a la perfeccion 
+            Por lo que brindamos las siguientes soluciones.     </p>
+            <ul class="text-justify">         
+            <li class="my-1">Suministro de llanta OTR marca Bridgestone.  </li>
+            <li class="my-1">Analisis de carga del equipo y de la operación  para la selección de la llanta adecuada. </li>
+            <li class="my-1">Seguimientos mensuales en sitio sin costo.</li>
+            <li class="my-1">Reportes de rendimiento sobre las llantas sin costo. </li>
+            <li class="my-1">Capacitaciones constantes sobre el uso correcto, seguridad, montaje y desmontaje. </li>
+            <li class="my-1">Suministramos consumibles y herramienta para el cuidado y manejo adecuado.  </li>
+            <li>¿Lo nuestro? Al ser una planta renovadora, conocemos la estuctura de las llantas a la perfeccion 
               y por esto ofrecemos el servicio de reparación de neumáticos OTR mediante el uso de tecnología 
-              de punta para garantizar que sigan operando bajo las condiciones mas severas. <br>
-            </p>
+              de punta para garantizar que sigan operando bajo las condiciones mas severas. </li>
+            </ul>
           </v-layout>
 
     <br /><br />
@@ -32,8 +31,7 @@
     <br /><br />
 
     <div align=center justify=center>
-      <v-img src="http://212.1.214.191:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
-      </v-img>
+      <v-img :src="require('../assets/images/Infografía.png')" class="ml-8" max-width="1100"></v-img>          
     </div>  
   </div>
 </template>

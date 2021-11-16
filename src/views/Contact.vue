@@ -128,7 +128,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col>
+      <!-- <v-col>
         <v-card flat class="grey lighten-3 mx-auto">
           <v-card-title>
             <v-icon large color="primary">mdi-email</v-icon>            
@@ -138,7 +138,7 @@
             <div class="text-body-1">recanor@outlook.com</div>
           </v-card-text>
         </v-card>
-      </v-col>
+      </v-col> -->
     </v-row>
     <v-img
     dark    

@@ -10,10 +10,10 @@
       <router-link to="/">
         <v-img v-if="this.$route.name === 'Home'"
           :src="require('@/assets/Logo.png')"          
-          class="mx-10 mb-10"          
-          max-height="80"
-          max-width="80"
-          absolute
+          class="mx-11 mb-10"          
+          max-height="60"
+          max-width="65"
+          contain
         ></v-img>
         <v-img v-else
           :src="require('@/assets/Logo-dark.png')"

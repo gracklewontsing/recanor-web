@@ -7,7 +7,6 @@
     src="http://212.1.214.191:8081/static/Productos1.jpg">
   </v-parallax>
 
-   <br /><br />
 
    <v-container class="">
       <v-row
@@ -18,6 +17,8 @@
         cols="6">
           <v-img
             id="img2"
+            class="py-16"
+            style="margin-top:32%"
             src="http://212.1.214.191:8081/static/Productos3.jpg"            
             max-width="600"
         >
@@ -28,7 +29,7 @@
           <v-layout id="llantaslayout" column justify-center align-left>
             <h2 id="title1">Venta de llantas nuevas</h2>
             <br />
-            <p id="text1">
+            <p id="text1" class="text-justify">
             Recanor ha establecido alianzas comerciales para la distribución de llanta nueva.  <br>
 Como la política de Recanor es brindar productos de calidad, dichas alianzas comerciales se han 
 realizado con marcas de primer nivel para brindar una confiabilidad de nuestros productos a nuestros 
@@ -36,7 +37,7 @@ clientes. Contacta a nuestro agente de ventas para una cotización sin compromis
 necesidades. 
             </p>
             <hr color="white" class="my-3">
-            <p id="text1">
+            <p id="text1" class="text-justify">
             El esquema de venta de llanta nueva entra en nuestra filosofía de economía circular ya que ayudamos a 
 nuestros clientes a obtener el mayor rendimiento de sus llantas originales brindándoles una nueva vida.  <br>
 Ademas podemos proporcionar cualquier tipo de llanta nueva asi sea para usos epecializados. 
@@ -48,9 +49,8 @@ Ademas podemos proporcionar cualquier tipo de llanta nueva asi sea para usos epe
 
     <br /><br />
 
-    <div align=center justify=center>
-      <v-img src="http://212.1.214.191:8081/static/Productos7.jpg" class="ml-8" max-width="1100">
-      </v-img>
+    <div align=center justify=center>       
+      <v-img :src="require('../assets/images/Infografía.png')" class="ml-8" max-width="1100"></v-img>    
     </div>
 
   </div>

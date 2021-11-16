@@ -14,30 +14,32 @@
         </p>
       </v-layout>
     </v-parallax>
-    <v-layout id="txt1" column justify-center>
-      <h3 id="title1" class="mb-5">Sobre nosotros</h3>
-      <h4 id="text1">
-        En RECANOR nos interesamos por la calidad del producto que fabricamos, es por eso que ofrecemos  
-servicio de asesoría  para satisfacer las necesidades de nuestros clientes. </h4>      
-      <hr class="my-2" color="white">
-      <h4 id="text1">
-         Nuestro producto es fabricado bajo estrictas normas de calidad y tecnología avanzada en el  
-proceso, contribuyendo además a preservar el medio ambiente ya que reciclamos neumáticos 
-usados.  </h4>
-      <hr class="my-2" color="white">
-      <h4 id="text1">        
- Ayudamos en la optimización de costos de nuestros clientes ofreciendo un producto de calidad. 
-      </h4>
-    </v-layout>
-
-    <br /><br />
+    <v-row class="my-10" column>      
+      <v-col class="mx-auto text-justify" cols="8" justify-center>        
+        <h3 id="title1" class="mb-5">Sobre nosotros</h3>
+        <h4 id="text1" class="text-justify">Empresa Chihuahuense fundada en 2018, dedicada al recauchutado y comercialización de 
+neumáticos. </h4>
+<hr class="my-2" color="white">
+        <h4 id="text1" class="text-justify">
+          En RECANOR nos interesamos por la calidad del producto que fabricamos, es por eso que ofrecemos  
+  servicio de asesoría  para satisfacer las necesidades de nuestros clientes. </h4>      
+        <hr class="my-2" color="white">
+        <h4 id="text1" class="text-justify">
+          Nuestro producto es fabricado bajo estrictas normas de calidad y tecnología avanzada en el  
+  proceso, contribuyendo además a preservar el medio ambiente ya que reciclamos neumáticos 
+  usados.  </h4>
+        <hr class="my-2" color="white">
+        <h4 id="text1" class="text-justify">        
+  Ayudamos en la optimización de costos de nuestros clientes ofreciendo un producto de calidad. 
+        </h4>
+      </v-col>
+    </v-row>    
 
     <!--div class="d-flex flex-column justify-center align-center">
       <v-img src="http://212.1.214.191:8081/static/Sobre Nosotros2.jpg" width="90%">
       </v-img>
     </div-->
-
-    <br /><br />
+    
     <v-container class="">
       <v-row>
         <v-col>
@@ -50,8 +52,8 @@ usados.  </h4>
         </v-col>
         <v-col>
           <v-layout id="txt2" column justify-center align-left>
-            <h2 id="title1">Misión</h2>
-            <p>
+            <h2 id="title1" class="text-justify">Misión</h2>
+            <p class="text-justify">
               Ser una empresa socialmente comprometida enfocada en la seguridad de nuestros trabajadores y en un 
 profundo respeto por el medioambiente. Nos esforzamos por satisfacer la necesidad de nuestros clientes 
 ofreciendo un producto fabricado con altos estándares de calidad. 
@@ -66,7 +68,7 @@ ofreciendo un producto fabricado con altos estándares de calidad.
         <v-col>
           <v-layout id="txt4" column justify-center align-right>
             <h2 id="title1">Visión</h2>
-            <p>
+            <p class="text-justify" >
               Ser una empresa que contribuya al cuidado del medioambiente introduciendo la filosofía del renovado y 
 consumo responsable de neumáticos. 
             </p>
@@ -86,7 +88,7 @@ consumo responsable de neumáticos.
     <br /><br />
     <v-layout id="txt3" align-center column justify-center>
       <h1 id="title1">Valores</h1>
-      <p>
+      <p class="text-justify">
         RECANOR se compromete a conducirse en todos los aspectos, de una manera
         responsable, incluyendo el desarrollo de soluciones eficientes para
         satisfacer y SUPERAR las expectativas y los deseos de los clientes,
@@ -132,12 +134,6 @@ consumo responsable de neumáticos.
   font-size: 35px;
 }
 
-#txt1 {
-  padding-right: 50%;
-  text-align: left;
-  margin-left: 15%;
-  margin-top: 5%;
-}
 
 #txt3 {
   padding-right: 25%;

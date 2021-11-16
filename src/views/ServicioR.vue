@@ -5,9 +5,9 @@
       <v-row>
         <v-spacer></v-spacer>        
         <v-col cols=5>
-          <v-layout id="txt4" column justify-center align-right>
-            <h2 id="title1">Servicio de renovado</h2>
-            <p>
+          <v-layout id="txt4" column justify-center>
+            <h2 id="title1" class="mb-4">Servicio de renovado</h2>
+            <p class="text-justify">
               Consiste en la selección minuciosa de los cascos para determinar cuales son funcionables, 
 repararlas y mediante un proceso de vulcanización obtener un producto de primer nivel. <br>
 Gracias a la calidad de la materia prima que utilizamos y a nuestro proceso controlado, la fiabilidad y la 
@@ -21,8 +21,8 @@ seguridad de un producto nuevo.
         </v-col>
         <v-col cols=7>
           <v-img
-            id=""
-            style="margin-right: 20%"
+            class="py-12"
+            style="margin-right: 20%; margin-top: 19%;"
             src="http://212.1.214.191:8081/static/Productos.jpg"
             max-width="500"
           >
@@ -42,10 +42,10 @@ seguridad de un producto nuevo.
           >
           </v-img>
         </v-col>
-        <v-col cols=3>
-          <v-layout id="txt2" class="mt-8" column justify-center>
+        <v-col cols=4>
+          <v-layout id="txt2" class="" column justify-center>
             <h2 id="title1"></h2>
-            <p>
+            <p class="text-justify">
               Las llantas renovadas por RECANOR, ofrecen las mismas características que una llanta nueva, es decir: 
 Seguridad, calidad, rendimiento kilométrico, comportamiento en carretera y adherencia para cualquier 
 tipo de superficie. 
@@ -85,7 +85,7 @@ tipo de superficie.
       >
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Seguridad</h2>
-            <p id="text1">
+            <p id="text1" class="text-justify">
               Al recibir una llanta para revisión, se realiza una inspección
               inicial, la cual nos asegura que la estructura de la llanta está
               en condiciones para el renovado, de no ser así, por NINGUN motivo,
@@ -117,7 +117,7 @@ tipo de superficie.
       >
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Costo</h2>
-            <p id="text1">
+            <p id="text1" class="text-justify">
               El “Servicio del Renovado de Llantas”, siempre será más económico que el adquirir una llanta nueva, 
               ya que al invertir tan solo un tercio del valor de una llanta nueva, se obtiene una vida igual a la original.
             </p>
@@ -146,7 +146,7 @@ tipo de superficie.
       >
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Capacitación al cliente</h2>
-            <p id="text1">
+            <p id="text1" class="text-justify">
               Una llanta nueva, podría ser renovada por estándares de calidad, hasta 3 veces, siempre y 
               cuando su estructura permanezca en buen estado, es por ello que “RECANOR”, ofrece a sus clientes, 
               asesoría y monitoreo de su flotilla vehicular, con la finalidad de disminuir o eliminar practicas 
@@ -178,7 +178,7 @@ tipo de superficie.
       >
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Materia prima RECANOR</h2>
-            <p id="text1">
+            <p id="text1" class="text-justify">
               Se maneja materia prima y procedimientos de marcas como 
               MARANGONI y TECH, empresas líderes en su ramo y reconocidas 
               mundialmente por su calidad.
@@ -209,7 +209,7 @@ tipo de superficie.
       >
           <v-layout id="txt2" column justify-center align-left>
             <h2 id="title1">Beneficio ambiental</h2>
-            <p id="text1">
+            <p id="text1" class="text-justify">
               Sin lugar a dudas el Renovado de Llantas, genera un beneficio ambiental al utilizar una
                llanta renovada
             </p>
