@@ -117,14 +117,12 @@
             <div class="primary--text text--subtitle-1">Teléfonos</div>
           </v-card-title>
           <v-card-text style="overflow-y: auto; height:225px" class="mx-3">
-            <div class="text-body-1">Ing. Edgar Luján</div>
-            <div class="text-body-1">(614) 125 0761</div>
+            <div class="text-body-1">Ventas</div>
+            <div class="text-body-1">(614) 197 1630</div>
             <br>
-            <div class="text-body-1">Lic. Eduardo Luján</div>
-            <div class="text-body-1">(614) 196 1959</div>
+            <div class="text-body-1">Atención a clientes</div>
+            <div class="text-body-1">(614) 587 9803</div>
             <br>
-            <div class="text-body-1">Lic. Ruth Hernández</div>
-            <div class="text-body-1">(614) 278 2096</div>
           </v-card-text>
         </v-card>
       </v-col>
