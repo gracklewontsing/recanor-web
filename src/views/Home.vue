@@ -2,7 +2,7 @@
   <v-parallax
     dark
     height="800"
-    src="http://212.1.214.191:8081/static/HOME1.jpg"
+    src="https://recanorassets.s3.us-east-2.amazonaws.com/HOME1.jpg"
   >
     <v-row 
       align="center"            

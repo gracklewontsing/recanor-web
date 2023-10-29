@@ -55,7 +55,6 @@
           </v-menu>
 
           <v-tab class="ma-1" small to="/contacto" plain>Contacto</v-tab>
-          <v-tab class="ma-1" small to="/noticias" plain>Noticias</v-tab>
         </v-tabs>
       </v-toolbar-items>
     </v-app-bar>
@@ -101,12 +100,7 @@
             <router-link to="/contacto">
               <v-list-item-title>Contacto</v-list-item-title>
             </router-link>
-          </v-list-item>
-          <v-list-item>
-            <router-link to="/noticias">
-              <v-list-item-title>Noticias</v-list-item-title>
-            </router-link>
-          </v-list-item>          
+          </v-list-item>       
           <v-list-item>
             <router-link to="/renovado">
               <v-list-item-title>Renovado de Llantas</v-list-item-title>

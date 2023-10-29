@@ -23,13 +23,12 @@
           <v-layout id="" align-center column justify-center>
             <router-link to="/" class="black--text" style="text-decoration: none;"><p>Inicio</p></router-link>
             <router-link to="/privacidad" class="black--text" style="text-decoration: none;line-height:1;"><p>Política de Privacidad</p></router-link>
-            <router-link to="/login" class="black--text" style="text-decoration: none;line-height:1;"><p>Empleados</p></router-link>
             <router-link to="/sitemap.xml" class="black--text my-auto" style="text-decoration: none;line-height:1;"><p>Mapa de Sitio</p></router-link>
           </v-layout>
         </v-col>    
         <v-col cols="3" align-self="end">
           <v-layout id="mimica" column>
-            <p style="line-height:1;">Powered by MIMICA</p>
+            <p style="line-height:1;">Developed by MIMICA</p>
           </v-layout>
         </v-col>          
       </v-row>            

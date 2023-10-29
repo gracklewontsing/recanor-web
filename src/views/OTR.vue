@@ -24,7 +24,7 @@
     <br /><br />
 
     <div class="d-flex flex-column justify-center align-center">
-      <v-img src="http://212.1.214.191:8081/static/Productos2.jpg" max-width="1100">
+      <v-img src="https://recanorassets.s3.us-east-2.amazonaws.com/Productos2.jpg" max-width="1100">
       </v-img>
     </div>
 
