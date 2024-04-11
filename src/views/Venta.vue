@@ -4,7 +4,7 @@
 
   <v-parallax
     dark    
-    src="http://212.1.214.191:8081/static/Productos1.jpg">
+    src="https://recanorassets.s3.us-east-2.amazonaws.com/Productos1.jpg">
   </v-parallax>
 
 
@@ -19,7 +19,7 @@
             id="img2"
             class="py-16"
             style="margin-top:32%"
-            src="http://212.1.214.191:8081/static/Productos3.jpg"            
+            src="https://recanorassets.s3.us-east-2.amazonaws.com/Productos3.jpg"            
             max-width="600"
         >
         </v-img>

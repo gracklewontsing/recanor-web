@@ -23,7 +23,7 @@ seguridad de un producto nuevo.
           <v-img
             class="py-12"
             style="margin-right: 20%; margin-top: 19%;"
-            src="http://212.1.214.191:8081/static/Productos.jpg"
+            src="https://recanorassets.s3.us-east-2.amazonaws.com/Productos.jpg"
             max-width="500"
           >
           </v-img>
@@ -37,7 +37,7 @@ seguridad de un producto nuevo.
         <v-col cols=7>
           <v-img
             id="img2"
-            src="http://212.1.214.191:8081/static/Productos5.jpg"
+            src="https://recanorassets.s3.us-east-2.amazonaws.com/Productos5.jpg"
             max-width="600"
           >
           </v-img>
@@ -219,7 +219,7 @@ tipo de superficie.
   </v-container>
   <v-img       
     contain    
-    src="http://212.1.214.191:8081/static/Productos6.jpg">
+    src="https://recanorassets.s3.us-east-2.amazonaws.com/Productos6.jpg">
   </v-img>
   <br />
     <div align=center justify=center>      

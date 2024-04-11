@@ -54,35 +54,7 @@ const routes = [
     component: () => import("../views/Contact.vue"),
 
   },
-  {
-    path:"/noticias",
-    name:"Noticias",
-    component: () => import("../views/Noticias.vue"),
 
-  },
-  {
-    path:"/login",
-    name:"Login",
-    component: () => import("../views/Login.vue"),
-  },
-  {
-    path:"/newsManager",
-    name:"manager",
-    component: () => import("../views/NewsManager"),
-    beforeEnter: (to, from, next) => {
-      if(localStorage.getItem('jwt') === null){
-        next('/login')
-      } else {
-        next()
-      }
-    }
-  },
-  {
-    path:'/articulo/:id',
-    name:"Articulo",
-    component: () => import("../views/Article"),
-    props:true
-  }
 ];
 
 const router = new VueRouter({

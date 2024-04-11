@@ -4,7 +4,7 @@
     <v-parallax
       dark       
       height=600                     
-      src="http://212.1.214.191:8081/static/Sobre Nosotros1.jpg"      
+      src="https://recanorassets.s3.us-east-2.amazonaws.com/Sobre Nosotros1.jpg"      
     >
       <v-layout id="txt0" column justify-center>
         <h1 id="title0">Talento humano capacitado</h1>
@@ -36,7 +36,7 @@ neumáticos. </h4>
     </v-row>    
 
     <!--div class="d-flex flex-column justify-center align-center">
-      <v-img src="http://212.1.214.191:8081/static/Sobre Nosotros2.jpg" width="90%">
+      <v-img src="https://recanorassets.s3.us-east-2.amazonaws.com/Sobre Nosotros2.jpg" width="90%">
       </v-img>
     </div-->
     
@@ -45,7 +45,7 @@ neumáticos. </h4>
         <v-col>
           <v-img
             id="img2"
-            src="http://212.1.214.191:8081/static/Sobre Nosotros3.jpg"
+            src="https://recanorassets.s3.us-east-2.amazonaws.com/Sobre Nosotros3.jpg"
             max-width="600"
           >
           </v-img>
@@ -78,7 +78,7 @@ consumo responsable de neumáticos.
           <v-img
             id=""
             style="margin-right: 20%"
-            src="http://212.1.214.191:8081/static/Sobre Nosotros.jpg"
+            src="https://recanorassets.s3.us-east-2.amazonaws.com/Sobre Nosotros.jpg"
             max-width="600"
           >
           </v-img>
